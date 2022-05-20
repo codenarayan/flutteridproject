@@ -11,7 +11,13 @@ void main () => runApp(MaterialApp(    //materail app as our root widget which a
       centerTitle: true,
     ),
 
-    body: Text('Hello Ninjas!'),
+    body: Center(
+      child: Text('hello ninjas'),
+    ),
+    floatingActionButton:FloatingActionButton(
+      onPressed: () {  },
+      child: Text('click') ,
+    ) ,
 
 
   ) ,   // home properties which specify what is gonna be inside home
